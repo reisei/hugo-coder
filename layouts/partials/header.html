@@ -1,8 +1,9 @@
 <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
+<!--    <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
       {{ .Site.Title }}
     </a>
+-->
     {{ if or .Site.Menus.main .Site.IsMultiLingual }}
       {{ if not .Site.Params.hidecolorschemetoggle }}
         <span id="dark-mode-toggle" class="float-right">
